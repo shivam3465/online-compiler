@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Lato:wght@300;400;700&family=Ysabeau+Infant:ital,wght@0,100;0,200;0,400;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.btn{
+    padding: 0.2rem 0.4rem;
+    font-size: 1.2rem;
+    min-width: 5rem;
+    border-radius: 0.4rem;
+    border: none;
+    background-color: white;    
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    font-weight: 500;
+    cursor: pointer;
+    &:active{
+        transform: scale(0.9);
+    }
+}
+
+@media screen and (max-width: 980px) and (min-width: 768px) {
+    html{
+        font-size: 70%;
+    }
+}
+@media screen and (max-width: 768px) and (min-width: 480px) {
+    html{
+        font-size: 60%;
+    }
+}
+@media screen and (max-width: 480px) {
+    html{
+        font-size: 50%;
+    }
+}
